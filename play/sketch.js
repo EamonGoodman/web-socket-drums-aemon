@@ -32,6 +32,6 @@ WebMidi.enable(function (err) {
   }
 
   // From the list on the console, pick an output name:
-  // midiOutput = WebMidi.getOutputByName("IAC Driver IAC Bus 1");
-  midiOutput = WebMidi.getOutputByName('Arduino MKRZero');
+  midiOutput = WebMidi.getOutputByName("IAC Driver Web MIDI");
+  // midiOutput = WebMidi.getOutputByName('Arduino MKRZero');
 });

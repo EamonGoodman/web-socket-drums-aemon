@@ -5,9 +5,33 @@ let socket;
 function setup() {
   noCanvas();
   socket = io.connect();
-  button = createButton('Click Me', width / 2, height / 2);
-  button.mousePressed(() => {
-    buttonPressed('C2');
+  c2 = createButton('Tom', width / 2, height / 2);
+  c2.mousePressed(() => {
+    buttonPressed('C3');
+  });
+  c2 = createButton('Snare', width / 2, height / 4);
+  c2.mousePressed(() => {
+    buttonPressed('D3');
+  });
+  c2 = createButton('Tambourine', width / 2, height / 4);
+  c2.mousePressed(() => {
+    buttonPressed('A#3');
+  });
+  c2 = createButton('Bell', width / 2, height / 4);
+  c2.mousePressed(() => {
+    buttonPressed('A3');
+  });
+  c2 = createButton('Glass 1', width / 2, height / 4);
+  c2.mousePressed(() => {
+    buttonPressed('C#3');
+  });
+  c2 = createButton('Glass 2', width / 2, height / 4);
+  c2.mousePressed(() => {
+    buttonPressed('G3');
+  });
+  c2 = createButton('Heat Sink', width / 2, height / 4);
+  c2.mousePressed(() => {
+    buttonPressed('D#3');
   });
 }
 
